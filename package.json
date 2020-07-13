@@ -4,8 +4,10 @@
   "description": "Code repository for [https://www.packtpub.com/books/content/simple-todo-list-web-application-nodejs-express-and-riot](https://www.packtpub.com/books/content/simple-todo-list-web-application-nodejs-express-and-riot)",
   "main": "api.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "exit 0",
+    "start": "node app.js"
   },
+<<<<<<< HEAD
   "repository": {
     "type": "git",
     "url": "git+https://github.com/josie-m/riot-express-todo-list.git"
@@ -16,4 +18,15 @@
     "url": "https://github.com/josie-m/riot-express-todo-list/issues"
   },
   "homepage": "https://github.com/josie-m/riot-express-todo-list#readme"
+=======
+  "author": "Pedro Narciso García Revington <p.revington@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "jade": "^1.11.0",
+    "node-cmd": "^3.0.0",
+    "node-ssh": "^5.1.2"
+  }
+>>>>>>> 170d07d76b0d0113e62f21593142b9a7825e961b
 }
